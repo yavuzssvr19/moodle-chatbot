@@ -1,6 +1,8 @@
-# Moodle AI Chatbot Plugin 
+# Üstün Yetenekli Çocuklar için RAG Destekli Asistan
 
-Bu proje, Moodle tabanlı bir öğrenim yönetim sistemine (LMS) **AI destekli bir Chatbot** entegre etmeyi amaçlar. Chatbot, belirli PDF kitaplardan oluşturulan **vektör veritabanı** (ChromaDB) üzerinden kullanıcı sorularına yanıt üretir. Arka planda Google Gemini API ve Sentence Transformers modeli kullanılır.
+Bu proje, Moodle tabanlı bir öğrenim yönetim sistemine (LMS) **AI destekli bir Chatbot** entegre etmeyi amaçlar. Chatbot, belirli PDF kitaplardan oluşturulan **vektör veritabanı** (ChromaDB) üzerinden kullanıcı sorularına yanıt üretir. Arka planda Google Gemini API ve Sentence Transformers modeli kullanılır. Bu proje, PDF’lerden alınan metinleri başlık bazlı ve karakter/token parçalamayla (`chunking`) vektör veritabanına (ChromaDB) ekleyip kullanılır. 
+
+Asıl hedef: “Üstün yetenekli çocuklar” hakkındaki soruları, önceden indekslenmiş RAG yöntemi ile LLM'e verilmiş akademik içeriklere dayanarak yanıtlamak.
 
 ## Proje Yapısı
 ```
